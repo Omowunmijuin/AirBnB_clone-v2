@@ -17,5 +17,5 @@ Web Framework is a software framework designed to support the development of web
 
 
 # More Info
->> Install Flask
-$ pip3 install Flask
+## Install Flask
+>> $ pip3 install Flask
