@@ -14,3 +14,8 @@ Web Framework is a software framework designed to support the development of web
 | 4-number_route.py       | Displays value on if it's an integer                                     |
 | 5-number_template.py    | Displays HTML page if value is an integer                                |
 | templates/5-number.html | HTML page that gets rendered if /number_template/(n) is integer          |
+
+
+# More Info
+>> Install Flask
+$ pip3 install Flask
