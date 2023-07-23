@@ -1,4 +1,4 @@
-irBnB clone - Web framework
+# 0x04. AirBnB clone - Web framework
 
 **Python** **Back-end** **Webserver** **Flask**
 Web Framework is a software framework designed to support the development of web applications including web services, web resources and web APIs
@@ -19,3 +19,5 @@ Web Framework is a software framework designed to support the development of web
 # More Info
 ## Install Flask
 >> $ pip3 install Flask
+
+![hbnb_step3](https://github.com/Omowunmijuin/AirBnB_clone_v2/assets/109985883/20cb9da5-fc5c-4c82-8aac-c3b29f665a8d)
