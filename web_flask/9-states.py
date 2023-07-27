@@ -12,11 +12,11 @@ app = Flask(__name__)
 
 @app.route('/states', strict_slashes=False)
 @app.route('/states/<state_id>', strict_slashes=False)
-def states(state_id=None):
+def states(id=None):
     """display the states and cities listed in alphabetical order"""
     if id:
         states = storage.all("State")
-        key = 'State.' + state_id
+        key = 'State.' + id
         if key in states:
             state = states[key]
         else:
@@ -24,7 +24,7 @@ def states(state_id=None):
         states = []
     else:
         states = list(storage.all(state).values())
-    return render_template('9-states.html', states=states, state_id=state_id)
+    return render_template('9-states.html', state=state, states=states, id=id)
 
 
 @app.teardown_appcontext
